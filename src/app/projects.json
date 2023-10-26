@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Catchmaster",
+    "description": "Catchmaster is a group project made for web development course 2 in Metropolia UAS. It is a fishing app where users can share experiences from their fishing trips.",
+    "tech": "React, TypeScript, GraphQL, MongoDB",
+    "image": "catchmaster-logo.png",
+    "githubLink": "https://github.com/adnanavni/CatchMaster",
+    "homePage": "https://catchmaster.adnanavni.dev"
+  },
+  {
+    "name": "Jobel",
+    "description": "Jobel is a group project made for web development course 1 in Metropolia UAS. It is a place where you can share your thoughts anonymously!",
+    "tech": "MERN stack",
+    "image": "jobel.png",
+    "githubLink": "https://github.com/adnanavni/jobel",
+    "homePage": "https://jobel.vercel.app"
+  },
+  {
+    "name": "Dots",
+    "description": "Dots is a straightforward application that explores the use of React.",
+    "tech": "React, Javascript",
+    "image": "no-image.png",
+    "githubLink": "https://github.com/adnanavni/dots",
+    "homePage": "https://dots-adnanavni.vercel.app/"
+  },
+  {
+    "name": "Expense Tracker",
+    "description": "Expense Tracker is a group project made in Metropolia UAS. It helps you keep track of your expenses!",
+    "tech": "Java, JavaFX, MariaDB, Maven, JUnit",
+    "image": "no-image.png",
+    "githubLink": "https://github.com/adnanavni/expense-tracker",
+    "homePage": "https://github.com/adnanavni/expense-tracker"
+  },
+  {
+    "name": "Ski resort simulator",
+    "description": "Ski resort simulator is a group project made in Metropolia UAS. It stimulates the events that happen in a ski resort.",
+    "tech": "Java, JavaFX, MariaDB, Maven, JUnit",
+    "image": "no-image.png",
+    "githubLink": "https://github.com/adnanavni/laskettelukeskus",
+    "homePage": "https://github.com/adnanavni/laskettelukeskus"
+  },
+  {
+    "name": "Ylös-Ulos-Helsinki",
+    "description": "Ylös-Ulos-Helsinki is a website made for a group project in Metropolia UAS. It is a website that helps you find activities in Helsinki.",
+    "tech": "HTML, CSS, Javascript",
+    "image": "no-image.png",
+    "githubLink": "https://github.com/adnanavni/ylos-ulos-helsinki",
+    "homePage": "https://adnanavni.github.io/ylos-ulos-helsinki/"
+  }
+]
