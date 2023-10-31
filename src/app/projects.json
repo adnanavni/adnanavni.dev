@@ -16,10 +16,18 @@
     "homePage": "https://jobel.vercel.app"
   },
   {
+    "name": "Tic Tac Toe",
+    "description": "Simple tic tac toe game made with React using typescript.",
+    "tech": "React, TypeScript",
+    "image": "tictactoe.png",
+    "githubLink": "https://github.com/adnanavni/tic-tac-toe",
+    "homePage": "https://tictactoe.adnanavni.vercel.app/"
+  },
+  {
     "name": "Dots",
     "description": "Dots is a straightforward application that explores the use of React.",
     "tech": "React, Javascript",
-    "image": "no-image.png",
+    "image": "",
     "githubLink": "https://github.com/adnanavni/dots",
     "homePage": "https://dots-adnanavni.vercel.app/"
   },
@@ -27,7 +35,7 @@
     "name": "Expense Tracker",
     "description": "Expense Tracker is a group project made in Metropolia UAS. It helps you keep track of your expenses!",
     "tech": "Java, JavaFX, MariaDB, Maven, JUnit",
-    "image": "no-image.png",
+    "image": "",
     "githubLink": "https://github.com/adnanavni/expense-tracker",
     "homePage": "https://github.com/adnanavni/expense-tracker"
   },
@@ -35,7 +43,7 @@
     "name": "Ski resort simulator",
     "description": "Ski resort simulator is a group project made in Metropolia UAS. It stimulates the events that happen in a ski resort.",
     "tech": "Java, JavaFX, MariaDB, Maven, JUnit",
-    "image": "no-image.png",
+    "image": "",
     "githubLink": "https://github.com/adnanavni/laskettelukeskus",
     "homePage": "https://github.com/adnanavni/laskettelukeskus"
   },
@@ -43,7 +51,7 @@
     "name": "Ylös-Ulos-Helsinki",
     "description": "Ylös-Ulos-Helsinki is a website made for a group project in Metropolia UAS. It is a website that helps you find activities in Helsinki.",
     "tech": "HTML, CSS, Javascript",
-    "image": "no-image.png",
+    "image": "",
     "githubLink": "https://github.com/adnanavni/ylos-ulos-helsinki",
     "homePage": "https://adnanavni.github.io/ylos-ulos-helsinki/"
   }

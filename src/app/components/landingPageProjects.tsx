@@ -21,12 +21,15 @@ export const Project = ({ project }: ProjectProps) => {
   return (
     <div className="StyledProject">
       <div className="StyledProjectPart">
-        <Image
-          alt={name}
-          src={`/project-logos/${image}`}
-          width={32}
-          height={32}
-        />
+        {image !== "" && (
+          <Image
+            alt={name}
+            src={`/project-logos/${image}`}
+            width={32}
+            height={32}
+          />
+        )}
+
         <Link href={homePage}>
           <h3>{name}</h3>
         </Link>
@@ -42,7 +45,7 @@ export const Project = ({ project }: ProjectProps) => {
 
 export default function Projects() {
   const filteredProjects = projectsData.filter((project) =>
-    ["Catchmaster", "Jobel", "Dots"].includes(project.name)
+    ["Catchmaster", "Jobel", "Tic Tac Toe"].includes(project.name)
   );
   return (
     <div className="StyledProjectsContainer">
