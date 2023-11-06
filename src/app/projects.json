@@ -16,6 +16,14 @@
     "homePage": "https://jobel.vercel.app"
   },
   {
+    "name": "Speed Tester",
+    "description": "Simple speed tester game made with React using typescript.",
+    "tech": "React, TypeScript",
+    "image": "speedtester.png",
+    "githubLink": "https://github.com/adnanavni/speed-tester",
+    "homePage": "https://speed-buttons.adnanavni.vercel.app/"
+  },
+  {
     "name": "Tic Tac Toe",
     "description": "Simple tic tac toe game made with React using typescript.",
     "tech": "React, TypeScript",

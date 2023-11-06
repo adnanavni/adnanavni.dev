@@ -45,7 +45,9 @@ export const Project = ({ project }: ProjectProps) => {
 
 export default function Projects() {
   const filteredProjects = projectsData.filter((project) =>
-    ["Catchmaster", "Jobel", "Tic Tac Toe"].includes(project.name)
+    ["Catchmaster", "Jobel", "Speed Tester", "Tic Tac Toe"].includes(
+      project.name
+    )
   );
   return (
     <div className="StyledProjectsContainer">
