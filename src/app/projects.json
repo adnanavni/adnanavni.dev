@@ -21,7 +21,7 @@
     "tech": "React, TypeScript",
     "image": "speedtester.png",
     "githubLink": "https://github.com/adnanavni/speed-tester",
-    "homePage": "https://speed-buttons.adnanavni.vercel.app/"
+    "homePage": "https://speedbuttons.adnanavni.dev/"
   },
   {
     "name": "Tic Tac Toe",
@@ -29,7 +29,7 @@
     "tech": "React, TypeScript",
     "image": "tictactoe.png",
     "githubLink": "https://github.com/adnanavni/tic-tac-toe",
-    "homePage": "https://tictactoe.adnanavni.vercel.app/"
+    "homePage": "https://tictactoe.adnanavni.dev/"
   },
   {
     "name": "Dots",
@@ -37,7 +37,7 @@
     "tech": "React, Javascript",
     "image": "",
     "githubLink": "https://github.com/adnanavni/dots",
-    "homePage": "https://dots-adnanavni.vercel.app/"
+    "homePage": "https://dots.adnanavni.dev/"
   },
   {
     "name": "Expense Tracker",
