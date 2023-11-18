@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className="StyledMain">
       <AboutMe />
-      <h2>Projects</h2>
+      <h2>Top picks:</h2>
       <div className="StyledProjectsContainer">
         {filteredProjects.map((project, index) => (
           <Project key={index} project={project} />
