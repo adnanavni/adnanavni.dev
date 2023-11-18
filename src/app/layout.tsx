@@ -9,7 +9,7 @@ const lato = Lato({ weight: "400", subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Adnan Avni",
   description:
-    "Explore my portfolio if creative projects and designs. Discover a world of innovation and passion.",
+    "Explore my portfolio of creative projects and designs. Discover a world of innovation and passion.",
   icons: {
     icon: "/icon.png",
   },
