@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import projectsData from "../projects.json";
 
 export type Project = {
   name: string;
@@ -15,7 +14,7 @@ export type ProjectProps = {
   project: Project;
 };
 
-export const Project = ({ project }: ProjectProps) => {
+const Project = ({ project }: ProjectProps) => {
   const { name, description, tech, image, githubLink, homePage } = project;
 
   return (
@@ -34,26 +33,13 @@ export const Project = ({ project }: ProjectProps) => {
           <h3>{name}</h3>
         </Link>
       </div>
-      <p>{description}</p>
-      <p>{tech}</p>
+      <p className="description">{description}</p>
       <div className="StyledProjectFooter">
+        <p className="tech">{tech}</p>
         <Link href={githubLink}>@github</Link>
       </div>
     </div>
   );
 };
 
-export default function Projects() {
-  const filteredProjects = projectsData.filter((project) =>
-    ["Catchmaster", "Jobel", "Speed Tester", "Tic Tac Toe"].includes(
-      project.name
-    )
-  );
-  return (
-    <div className="StyledProjectsContainer">
-      {filteredProjects.map((project, index) => (
-        <Project key={index} project={project} />
-      ))}
-    </div>
-  );
-}
+export default Project;

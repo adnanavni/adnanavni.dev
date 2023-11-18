@@ -1,5 +1,21 @@
 [
   {
+    "name": "Speed Tester",
+    "description": "The legendary speed tester game made with React using Typescript.",
+    "tech": "React, TypeScript",
+    "image": "speedtester.png",
+    "githubLink": "https://github.com/adnanavni/speed-tester",
+    "homePage": "https://speedbuttons.adnanavni.dev/"
+  },
+  {
+    "name": "Tic Tac Toe",
+    "description": "Simple tic tac toe game made with React using Typescript.",
+    "tech": "React, TypeScript",
+    "image": "tictactoe.png",
+    "githubLink": "https://github.com/adnanavni/tic-tac-toe",
+    "homePage": "https://tictactoe.adnanavni.dev/"
+  },
+  {
     "name": "Catchmaster",
     "description": "Catchmaster is a group project made for web development course 2 in Metropolia UAS. It is a fishing app where users can share experiences from their fishing trips.",
     "tech": "React, TypeScript, GraphQL, MongoDB",
@@ -16,20 +32,12 @@
     "homePage": "https://jobel.vercel.app"
   },
   {
-    "name": "Speed Tester",
-    "description": "Simple speed tester game made with React using typescript.",
-    "tech": "React, TypeScript",
-    "image": "speedtester.png",
-    "githubLink": "https://github.com/adnanavni/speed-tester",
-    "homePage": "https://speedbuttons.adnanavni.dev/"
-  },
-  {
-    "name": "Tic Tac Toe",
-    "description": "Simple tic tac toe game made with React using typescript.",
-    "tech": "React, TypeScript",
-    "image": "tictactoe.png",
-    "githubLink": "https://github.com/adnanavni/tic-tac-toe",
-    "homePage": "https://tictactoe.adnanavni.dev/"
+    "name": "Expense Tracker",
+    "description": "Expense Tracker is a group project made in Metropolia UAS. It helps you keep track of your expenses!",
+    "tech": "Java, JavaFX, MariaDB, Maven, JUnit",
+    "image": "",
+    "githubLink": "https://github.com/adnanavni/expense-tracker",
+    "homePage": "https://github.com/adnanavni/expense-tracker"
   },
   {
     "name": "Dots",
@@ -38,14 +46,6 @@
     "image": "",
     "githubLink": "https://github.com/adnanavni/dots",
     "homePage": "https://dots.adnanavni.dev/"
-  },
-  {
-    "name": "Expense Tracker",
-    "description": "Expense Tracker is a group project made in Metropolia UAS. It helps you keep track of your expenses!",
-    "tech": "Java, JavaFX, MariaDB, Maven, JUnit",
-    "image": "",
-    "githubLink": "https://github.com/adnanavni/expense-tracker",
-    "homePage": "https://github.com/adnanavni/expense-tracker"
   },
   {
     "name": "Ski resort simulator",

@@ -9,6 +9,9 @@ const lato = Lato({ weight: "400", subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Adnan Avni",
   description: "Adnan Avni's personal website",
+  icons: {
+    icon: "/icon.png",
+  },
 };
 
 export default function RootLayout({
