@@ -56,6 +56,14 @@
     "homePage": "https://github.com/adnanavni/laskettelukeskus"
   },
   {
+    "name": "Animated Landscape",
+    "description": "This project is a CSS animation of a landscape scene. Optimized for a screen resolution of 1920x1080 pixels for the best visual experience. Please note that using other resolutions may result in a less-than-ideal appearance :D.",
+    "tech": "HTML, CSS, Javascript",
+    "image": "moon.png",
+    "githubLink": "https://github.com/adnanavni/animated-landscape",
+    "homePage":"https://landscape.adnanavni.dev/"
+  },
+  {
     "name": "Ylös-Ulos-Helsinki",
     "description": "Ylös-Ulos-Helsinki is a website made for a group project in Metropolia UAS. It is a website that helps you find activities in Helsinki.",
     "tech": "HTML, CSS, Javascript",
