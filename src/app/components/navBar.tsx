@@ -25,7 +25,6 @@ export default function NavBar() {
       <div className="StyledNavLinks">
         <Link href="/">Home</Link>
         <Link href="/projects">Projects</Link>
-        <Link href="/cv">CV</Link>
       </div>
       <div className="StyledNavImages">
         <Link href="https://github.com/adnanavni">
