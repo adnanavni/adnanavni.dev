@@ -3,6 +3,7 @@ import Image from "next/image";
 import Github from "../../../public/github.png";
 import Linkedin from "../../../public/linkedin.png";
 import Logo from "../../../public/icon.png";
+import styles from "../styles.module.css";
 
 export default function NavBar() {
   return (
@@ -18,8 +19,15 @@ export default function NavBar() {
             gap: "0.5rem",
           }}
         >
-          <Image id="logo" alt="logo" src={Logo} width={30} height={30}></Image>
-          <h1 style={{ padding: 0 }} id="navheader">
+          <Image
+            id="logo"
+            alt="logo"
+            src={Logo}
+            width={30}
+            height={30}
+            className={styles.hideOnMobile}
+          ></Image>
+          <h1 style={{ padding: 0 }} className="styles.smallerFont">
             adnanavni.dev
           </h1>
         </Link>

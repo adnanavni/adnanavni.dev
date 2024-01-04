@@ -48,19 +48,6 @@ h3 {
   color: #a45bf7;
 }
 
-#logo {
-  @media (max-width: 768px) {
-    width: 0;
-    height: 0;
-  }
-}
-
-#navheader {
-  @media (max-width: 768px) {
-    font-size: 1rem;
-  }
-}
-
 .StyledNav {
   display: flex;
   flex-direction: row;
