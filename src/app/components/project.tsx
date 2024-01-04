@@ -29,8 +29,8 @@ const Project = ({ project }: ProjectProps) => {
           />
         )}
 
-        <Link href={homePage}>
-          <h3>{name}</h3>
+        <Link href={homePage} className="projectName">
+          {name}
         </Link>
       </div>
       <p className="description">{description}</p>

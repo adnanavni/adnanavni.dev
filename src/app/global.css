@@ -30,11 +30,13 @@ p {
 h2 {
   letter-spacing: 0.25rem;
   margin-bottom: 1rem;
+  cursor: default;
   color: white;
 }
-h3 {
-  letter-spacing: 0.15rem;
-  color: white;
+.projectName {
+  letter-spacing: 0.1rem;
+  font-size: 1.5rem;
+  padding: 0.75rem;
 }
 
 .description {
