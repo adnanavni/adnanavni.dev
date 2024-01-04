@@ -49,14 +49,14 @@ h3 {
 }
 
 #logo {
-  @media screen and (max-width: 768px) {
+  @media (max-width: 768px) {
     width: 0;
     height: 0;
   }
 }
 
 #navheader {
-  @media screen and (max-width: 768px) {
+  @media (max-width: 768px) {
     font-size: 1rem;
   }
 }
