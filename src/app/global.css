@@ -33,9 +33,10 @@ h2 {
   cursor: default;
   color: white;
 }
+
 .projectName {
   letter-spacing: 0.1rem;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   padding: 0.75rem;
 }
 
