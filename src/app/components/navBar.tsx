@@ -18,8 +18,10 @@ export default function NavBar() {
             gap: "0.5rem",
           }}
         >
-          <Image alt="logo" src={Logo} width={30} height={30}></Image>
-          <h1 style={{ padding: 0 }}>adnanavni.dev</h1>
+          <Image id="logo" alt="logo" src={Logo} width={30} height={30}></Image>
+          <h1 style={{ padding: 0 }} id="navheader">
+            adnanavni.dev
+          </h1>
         </Link>
       </div>
       <div className="StyledNavLinks">
