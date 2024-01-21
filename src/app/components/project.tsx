@@ -36,7 +36,7 @@ const Project = ({ project }: ProjectProps) => {
       <p className="description">{description}</p>
       <div className="StyledProjectFooter">
         <p className="tech">{tech}</p>
-        <Link href={githubLink}>@github</Link>
+        {githubLink === "" ? null : <Link href={githubLink}>@github</Link>}
       </div>
     </div>
   );

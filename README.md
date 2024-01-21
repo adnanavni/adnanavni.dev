@@ -1,3 +1,5 @@
 # adnanavni.dev
 
-Built using ts and next.js
+My personal portfolio.
+
+![icon](public/icon.png)

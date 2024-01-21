@@ -5,7 +5,7 @@ import AboutMe from "./components/aboutme";
 
 export default function Home() {
   const filteredProjects = projectsData.filter((project) =>
-    ["Catchmaster", "Jobel", "Speed Tester", "Tic Tac Toe"].includes(
+    ["Catchmaster", "Jobel", "Speed Tester", "Shared Notes"].includes(
       project.name
     )
   );

@@ -1,7 +1,24 @@
 [
   {
+    "name": "Shared Notes",
+    "description": "Shared Notes is a website that allows users to create and share notes with other users.",
+    "tech": "MERN, JWT, Javascript",
+    "image": "sharednotes.png",
+    "githubLink": "https://github.com/adnanavni/shared-notes",
+    "homePage": "https://tictactoe.adnanavni.dev/"
+  },
+  {
+    "name": "Leikkai",
+    "description": "Mail subscription service for my friend's incoming clothing brand Leikkai.",
+    "tech": "Next.js, TypeScript",
+    "image": "leikkai.png",
+    "githubLink": "",
+    "homePage":"https://leikkai.com/"
+
+  },
+  {
     "name": "Speed Tester",
-    "description": "The legendary speed tester game made with React using Typescript.",
+    "description": "The legendary speed tester game.",
     "tech": "React, TypeScript",
     "image": "speedtester.png",
     "githubLink": "https://github.com/adnanavni/speed-tester",
@@ -9,11 +26,19 @@
   },
   {
     "name": "Tic Tac Toe",
-    "description": "Simple tic tac toe game made with React using Typescript.",
+    "description": "Simple tic tac toe game.",
     "tech": "React, TypeScript",
     "image": "tictactoe.png",
     "githubLink": "https://github.com/adnanavni/tic-tac-toe",
     "homePage": "https://tictactoe.adnanavni.dev/"
+  },
+  {
+    "name": "adnanavni.dev",
+    "description": "My personal portfolio.",
+    "tech": "Next.JS, TypeScript",
+    "image": "adnanavni.dev.png",
+    "githubLink": "https://github.com/adnanavni/adnanavni.dev",
+    "homePage": "https://adnanavni.dev"
   },
   {
     "name": "Catchmaster",
@@ -26,7 +51,7 @@
   {
     "name": "Jobel",
     "description": "Jobel is a group project made for web development course 1 in Metropolia UAS. It is a place where you can share your thoughts anonymously!",
-    "tech": "MERN stack",
+    "tech": "MERN, JWT, Javascript",
     "image": "jobel.png",
     "githubLink": "https://github.com/adnanavni/jobel",
     "homePage": "https://jobel.vercel.app"
