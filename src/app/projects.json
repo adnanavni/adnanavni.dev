@@ -95,5 +95,13 @@
     "image": "",
     "githubLink": "https://github.com/adnanavni/ylos-ulos-helsinki",
     "homePage": "https://adnanavni.github.io/ylos-ulos-helsinki/"
+  },
+  {
+    "name": "Vesihiisi",
+    "description": "Vesihiisi is a water consumption tracking app made for a group project in Metropolia UAS.",
+    "tech": "Java, Android Studio",
+    "image": "",
+    "githubLink": "https://github.com/adnanavni/vesihiisi",
+    "homePage": "https://github.com/adnanavni/vesihiisi"
   }
 ]
