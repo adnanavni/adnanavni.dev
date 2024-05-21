@@ -160,6 +160,15 @@ h2 {
   }
 }
 
+.StyledProjectDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  height: 86vh;
+}
+
 .StyledFooter {
   display: flex;
   flex-direction: row;

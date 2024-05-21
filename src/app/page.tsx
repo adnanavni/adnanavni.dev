@@ -1,6 +1,6 @@
 import "./global.css";
-import Project from "./components/project";
-import projectsData from "./projects.json";
+import SingleProject from "./components/singleProject";
+import projectsData from "./data/projects.json";
 import AboutMe from "./components/aboutme";
 
 export default function Home() {
@@ -15,7 +15,7 @@ export default function Home() {
       <h2>Top picks:</h2>
       <div className="StyledProjectsContainer">
         {filteredProjects.map((project, index) => (
-          <Project key={index} project={project} />
+          <SingleProject key={index} project={project} />
         ))}
       </div>
     </div>

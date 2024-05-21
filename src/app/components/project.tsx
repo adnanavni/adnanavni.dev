@@ -8,6 +8,8 @@ export type Project = {
   image: string;
   githubLink: string;
   homePage: string;
+  showDesc: string;
+  date: string;
 };
 
 export type ProjectProps = {
@@ -15,7 +17,7 @@ export type ProjectProps = {
 };
 
 const Project = ({ project }: ProjectProps) => {
-  const { name, description, tech, image, githubLink, homePage } = project;
+  const { name, image, showDesc, date } = project;
 
   return (
     <div className="StyledProject">
@@ -29,14 +31,16 @@ const Project = ({ project }: ProjectProps) => {
           />
         )}
 
-        <Link href={homePage} className="projectName">
+        <Link
+          href={"/projects/" + name.split(" ").join("").toLowerCase()}
+          className="projectName"
+        >
           {name}
         </Link>
       </div>
-      <p className="description">{description}</p>
+      <p className="description">{showDesc}</p>
       <div className="StyledProjectFooter">
-        <p className="tech">{tech}</p>
-        {githubLink === "" ? null : <Link href={githubLink}>@github</Link>}
+        <p className="tech">{date}</p>
       </div>
     </div>
   );

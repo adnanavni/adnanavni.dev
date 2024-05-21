@@ -1,5 +1,15 @@
 [
   {
+    "name": "Mölkky Pistelaskuri",
+    "description": "Helps you keep track of your Mölkky game scores.",
+    "tech": "Vue",
+    "image": "molkky.png",
+    "githubLink": "https://github.com/adnanavni/molkky-pistelaskuri",
+    "homePage": "https://molkky.adnanavni.dev/",
+    "showDesc": "skrt",
+    "date": "21.5.2024"
+  },
+  {
     "name": "Shared Notes",
     "description": "Shared Notes is a website that allows users to create and share notes with other users.",
     "tech": "MERN, JWT, Javascript",
@@ -14,7 +24,6 @@
     "image": "leikkai.png",
     "githubLink": "",
     "homePage":"https://leikkai.com/"
-
   },
   {
     "name": "Speed Tester",

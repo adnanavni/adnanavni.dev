@@ -1,6 +1,6 @@
 import "../global.css";
 import Project from "../components/project";
-import projectsData from "../projects.json";
+import projectsData from "../data/projects.json";
 
 export default function Home() {
   return (
