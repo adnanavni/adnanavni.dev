@@ -4,7 +4,6 @@ import Link from "next/link";
 export type Project = {
   name: string;
   description: string;
-  tech: string;
   image: string;
   githubLink: string;
   homePage: string;
@@ -14,6 +13,11 @@ export type Project = {
 
 export type ProjectProps = {
   project: Project;
+};
+
+export const projectNameFormat = (name: string) => {
+  let formattedName = name.replace(/ä/g, "a").replace(/ö/g, "o");
+  return formattedName.split(" ").join("").toLowerCase();
 };
 
 const Project = ({ project }: ProjectProps) => {
@@ -30,9 +34,8 @@ const Project = ({ project }: ProjectProps) => {
             height={32}
           />
         )}
-
         <Link
-          href={"/projects/" + name.split(" ").join("").toLowerCase()}
+          href={"/projects/" + projectNameFormat(name)}
           className="projectName"
         >
           {name}
@@ -40,7 +43,7 @@ const Project = ({ project }: ProjectProps) => {
       </div>
       <p className="description">{showDesc}</p>
       <div className="StyledProjectFooter">
-        <p className="tech">{date}</p>
+        <p className="date">{date}</p>
       </div>
     </div>
   );

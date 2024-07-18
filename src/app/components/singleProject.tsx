@@ -1,12 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Project, ProjectProps } from "@/app/components/project";
+import { ProjectProps } from "@/app/components/project";
 
 const SingleProject = ({ project }: ProjectProps) => {
-  const { name, description, tech, image, githubLink, homePage } = project;
+  const { name, description, image, githubLink, homePage } = project;
 
   return (
-    <div className="StyledProject">
+    <div className="singleProject">
       <div className="StyledProjectPart">
         {image !== "" && (
           <Image
@@ -23,7 +23,6 @@ const SingleProject = ({ project }: ProjectProps) => {
       </div>
       <p className="description">{description}</p>
       <div className="StyledProjectFooter">
-        <p className="tech">{tech}</p>
         {githubLink === "" ? null : <Link href={githubLink}>@github</Link>}
       </div>
     </div>

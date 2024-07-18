@@ -1,7 +1,7 @@
 import "./global.css";
-import SingleProject from "./components/singleProject";
 import projectsData from "./data/projects.json";
 import AboutMe from "./components/aboutme";
+import Project from "./components/project";
 
 export default function Home() {
   const filteredProjects = projectsData.filter((project) =>
@@ -15,7 +15,7 @@ export default function Home() {
       <h2>Top picks:</h2>
       <div className="StyledProjectsContainer">
         {filteredProjects.map((project, index) => (
-          <SingleProject key={index} project={project} />
+          <Project key={index} project={project} />
         ))}
       </div>
     </div>
