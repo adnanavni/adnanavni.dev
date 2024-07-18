@@ -1,0 +1,130 @@
+[
+  {
+    "name": "Mölkky Pistelaskuri",
+    "description": "User-friendly web application designed to help you keep track of your Mölkky game scores. Built using Vue.js, this tool ensures an easy and efficient way to manage your game statistics, enhancing your Mölkky playing experience.",
+    "image": "molkky.png",
+    "githubLink": "https://github.com/adnanavni/molkky-pistelaskuri",
+    "homePage": "https://molkky.adnanavni.dev/",
+    "showDesc": "Helps you keep track of your Mölkky game scores.",
+    "date": "2024"
+  },
+  {
+    "name": "Shared Notes",
+    "description": "Dynamic web application that allows users to create and share notes with others. Utilizing the MERN stack (MongoDB, Express.js, React, Node.js) and JWT for secure authentication, this platform facilitates seamless collaboration and note sharing.",
+    "image": "sharednotes.png",
+    "githubLink": "https://github.com/adnanavni/shared-notes",
+    "homePage": "https://sharednotes.adnanavni.dev/",
+    "showDesc": "Allows users to create and share notes with other users.",
+    "date": "2024"
+  },
+  {
+    "name": "Leikkai",
+    "description": "Mail subscription service designed for an upcoming clothing brand. Developed with Next.js and TypeScript, this application enables users to subscribe and receive updates about the latest collections and news from Leikkai.",
+    "image": "leikkai.png",
+    "githubLink": "",
+    "homePage": "https://leikkai.com/",
+    "showDesc": "Mail subscription service for my friend's upcoming clothing brand Leikkai.",
+    "date": "2024"
+  },
+  {
+    "name": "Speed Tester",
+    "description": "Fun and interactive game that tests your reaction speed. Built with React and TypeScript, this application provides a challenging and engaging experience to improve your reflexes and reaction time.",
+
+    "image": "speedtester.png",
+    "githubLink": "https://github.com/adnanavni/speed-tester",
+    "homePage": "https://speedbuttons.adnanavni.dev/",
+    "showDesc": "The legendary speed tester game.",
+    "date": "2023"
+  },
+  {
+    "name": "Tic Tac Toe",
+    "description": "Simple yet engaging Tic Tac Toe game developed using React and TypeScript. It allows two players to compete in a classic 1vs1 match, offering a straightforward and enjoyable gaming experience.",
+
+    "image": "tictactoe.png",
+    "githubLink": "https://github.com/adnanavni/tic-tac-toe",
+    "homePage": "https://tictactoe.adnanavni.dev/",
+    "showDesc": "Simple tic tac toe 1vs1 game.",
+    "date": "2023"
+  },
+  {
+    "name": "adnanavni.dev",
+    "description": "My personal portfolio website, showcasing my projects, skills, and professional journey. Developed with Next.js and TypeScript, this site serves as a comprehensive introduction to my work and expertise.",
+    "image": "adnanavni.dev.png",
+    "githubLink": "https://github.com/adnanavni/adnanavni.dev",
+    "homePage": "https://adnanavni.dev",
+    "showDesc": "This website! :D",
+    "date": "2023"
+  },
+  {
+    "name": "Catchmaster",
+    "description": "Collaborative project created for a web development course at Metropolia UAS. This fishing app, built with React, TypeScript, GraphQL, and MongoDB, allows users to share and document their fishing trip experiences.",
+    "image": "catchmaster-logo.png",
+    "githubLink": "https://github.com/adnanavni/CatchMaster",
+    "homePage": "https://catchmaster.adnanavni.dev",
+    "showDesc": "Fishing app where users can share experiences from their fishing trips.",
+    "date": "2023"
+  },
+  {
+    "name": "Jobel",
+    "description": "Platform developed for a web development course at Metropolia UAS, enabling users to share their thoughts anonymously. Utilizing the MERN stack and JWT for authentication, it provides a secure and open space for expression.",
+    "image": "jobel.png",
+    "githubLink": "https://github.com/adnanavni/jobel",
+    "homePage": "https://jobel.vercel.app",
+    "showDesc": "A place where you can share your thoughts anonymously!",
+    "date": "2023"
+  },
+  {
+    "name": "Expense Tracker",
+    "description": "Project designed to help users manage their expenses efficiently. Developed with Java, JavaFX, MariaDB, Maven, and JUnit, this application offers a reliable way to track and analyze your spending habits.",
+    "image": "",
+    "githubLink": "https://github.com/adnanavni/expense-tracker",
+    "homePage": "https://github.com/adnanavni/expense-tracker",
+    "showDesc": "Helps you keep track of your expenses!",
+    "date": "2023"
+  },
+  {
+    "name": "Dots",
+    "description": "Straightforward application exploring the use of React. It serves as a simple yet effective demonstration of React's capabilities, focusing on basic interactive features and components.",
+    "image": "",
+    "githubLink": "https://github.com/adnanavni/dots",
+    "homePage": "https://dots.adnanavni.dev/",
+    "showDesc": "Exploring the use of React.",
+    "date": "2022"
+  },
+  {
+    "name": "Ski resort simulator",
+    "description": "Group project from Metropolia UAS, simulating events and operations at a ski resort. Developed with Java, JavaFX, MariaDB, Maven, and JUnit, this application provides a detailed simulation experience.",
+    "image": "",
+    "githubLink": "https://github.com/adnanavni/laskettelukeskus",
+    "homePage": "https://github.com/adnanavni/laskettelukeskus",
+    "showDesc": "Stimulates the events that happen in a ski resort.",
+    "date": "2022"
+  },
+  {
+    "name": "Animated Landscape",
+    "description": "Visually appealing project featuring a CSS animation of a landscape scene. Optimized for a 1920x1080 screen resolution, it showcases the capabilities of HTML, CSS, and JavaScript in creating animated visuals.",
+    "image": "moon.png",
+    "githubLink": "https://github.com/adnanavni/animated-landscape",
+    "homePage": "https://landscape.adnanavni.dev/",
+    "showDesc": "A CSS animation of a landscape scene",
+    "date": "2023"
+  },
+  {
+    "name": "Ylös-Ulos-Helsinki",
+    "description": "Website created for a group project at Metropolia UAS. It helps users find activities and events in Helsinki, utilizing HTML, CSS, and JavaScript to provide an informative and user-friendly interface.",
+    "image": "",
+    "githubLink": "https://github.com/adnanavni/ylos-ulos-helsinki",
+    "homePage": "https://adnanavni.github.io/ylos-ulos-helsinki/",
+    "showDesc": "A website that helps you find activities in Helsinki.",
+    "date": "2022"
+  },
+  {
+    "name": "Vesihiisi",
+    "description": "Water consumption tracking app developed for a group project at Metropolia UAS. Built with Java and Android Studio, it helps users monitor and manage their daily water intake.",
+    "image": "",
+    "githubLink": "https://github.com/adnanavni/vesihiisi",
+    "homePage": "https://github.com/adnanavni/vesihiisi",
+    "showDesc": "Water consumption tracking app",
+    "date": "2022"
+  }
+]

@@ -1,7 +1,7 @@
 import "./global.css";
-import Project from "./components/project";
-import projectsData from "./projects.json";
+import projectsData from "./data/projects.json";
 import AboutMe from "./components/aboutme";
+import Project from "./components/project";
 
 export default function Home() {
   const filteredProjects = projectsData.filter((project) =>
