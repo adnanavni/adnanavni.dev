@@ -6,7 +6,7 @@
     "githubLink": "https://github.com/adnanavni/molkky-pistelaskuri",
     "homePage": "https://molkky.adnanavni.dev/",
     "showDesc": "Helps you keep track of your Mölkky game scores.",
-    "date": "2024"
+    "date": "May, 2024"
   },
   {
     "name": "Shared Notes",
@@ -15,7 +15,7 @@
     "githubLink": "https://github.com/adnanavni/shared-notes",
     "homePage": "https://sharednotes.adnanavni.dev/",
     "showDesc": "Allows users to create and share notes with other users.",
-    "date": "2024"
+    "date": "January, 2024"
   },
   {
     "name": "Leikkai",
@@ -24,27 +24,25 @@
     "githubLink": "",
     "homePage": "https://leikkai.com/",
     "showDesc": "Mail subscription service for my friend's upcoming clothing brand Leikkai.",
-    "date": "2024"
+    "date": "December, 2024"
   },
   {
     "name": "Speed Tester",
     "description": "Fun and interactive game that tests your reaction speed. Built with React and TypeScript, this application provides a challenging and engaging experience to improve your reflexes and reaction time.",
-
     "image": "speedtester.png",
     "githubLink": "https://github.com/adnanavni/speed-tester",
     "homePage": "https://speedbuttons.adnanavni.dev/",
     "showDesc": "The legendary speed tester game.",
-    "date": "2023"
+    "date": "November, 2023"
   },
   {
     "name": "Tic Tac Toe",
     "description": "Simple yet engaging Tic Tac Toe game developed using React and TypeScript. It allows two players to compete in a classic 1vs1 match, offering a straightforward and enjoyable gaming experience.",
-
     "image": "tictactoe.png",
     "githubLink": "https://github.com/adnanavni/tic-tac-toe",
     "homePage": "https://tictactoe.adnanavni.dev/",
     "showDesc": "Simple tic tac toe 1vs1 game.",
-    "date": "2023"
+    "date": "October, 2023"
   },
   {
     "name": "adnanavni.dev",
@@ -53,25 +51,16 @@
     "githubLink": "https://github.com/adnanavni/adnanavni.dev",
     "homePage": "https://adnanavni.dev",
     "showDesc": "This website! :D",
-    "date": "2023"
+    "date": "October, 2023"
   },
   {
     "name": "Catchmaster",
-    "description": "Collaborative project created for a web development course at Metropolia UAS. This fishing app, built with React, TypeScript, GraphQL, and MongoDB, allows users to share and document their fishing trip experiences.",
+    "description": "Collaborative project created for a web development course at Metropolia UAS. This fishing app, built with React, TypeScript, GraphQL, and MongoDB, allows users to share and document their fishing experiences.",
     "image": "catchmaster-logo.png",
     "githubLink": "https://github.com/adnanavni/CatchMaster",
     "homePage": "https://catchmaster.adnanavni.dev",
     "showDesc": "Fishing app where users can share experiences from their fishing trips.",
-    "date": "2023"
-  },
-  {
-    "name": "Jobel",
-    "description": "Platform developed for a web development course at Metropolia UAS, enabling users to share their thoughts anonymously. Utilizing the MERN stack and JWT for authentication, it provides a secure and open space for expression.",
-    "image": "jobel.png",
-    "githubLink": "https://github.com/adnanavni/jobel",
-    "homePage": "https://jobel.vercel.app",
-    "showDesc": "A place where you can share your thoughts anonymously!",
-    "date": "2023"
+    "date": "September, 2023"
   },
   {
     "name": "Expense Tracker",
@@ -80,7 +69,16 @@
     "githubLink": "https://github.com/adnanavni/expense-tracker",
     "homePage": "https://github.com/adnanavni/expense-tracker",
     "showDesc": "Helps you keep track of your expenses!",
-    "date": "2023"
+    "date": "February, 2023"
+  },
+  {
+    "name": "Jobel",
+    "description": "Platform developed for a web development course at Metropolia UAS, enabling users to share their thoughts anonymously. Utilizing the MERN stack and JWT for authentication, it provides a secure and open space for expression.",
+    "image": "jobel.png",
+    "githubLink": "https://github.com/adnanavni/jobel",
+    "homePage": "https://jobel.vercel.app",
+    "showDesc": "A place where you can share your thoughts anonymously!",
+    "date": "December, 2022"
   },
   {
     "name": "Dots",
@@ -89,7 +87,7 @@
     "githubLink": "https://github.com/adnanavni/dots",
     "homePage": "https://dots.adnanavni.dev/",
     "showDesc": "Exploring the use of React.",
-    "date": "2022"
+    "date": "December, 2022"
   },
   {
     "name": "Ski resort simulator",
@@ -97,8 +95,8 @@
     "image": "",
     "githubLink": "https://github.com/adnanavni/laskettelukeskus",
     "homePage": "https://github.com/adnanavni/laskettelukeskus",
-    "showDesc": "Stimulates the events that happen in a ski resort.",
-    "date": "2022"
+    "showDesc": "Simulates the events that happen in a ski resort.",
+    "date": "September, 2022"
   },
   {
     "name": "Animated Landscape",
@@ -107,7 +105,7 @@
     "githubLink": "https://github.com/adnanavni/animated-landscape",
     "homePage": "https://landscape.adnanavni.dev/",
     "showDesc": "A CSS animation of a landscape scene",
-    "date": "2023"
+    "date": "November, 2023"
   },
   {
     "name": "Ylös-Ulos-Helsinki",
@@ -116,7 +114,7 @@
     "githubLink": "https://github.com/adnanavni/ylos-ulos-helsinki",
     "homePage": "https://adnanavni.github.io/ylos-ulos-helsinki/",
     "showDesc": "A website that helps you find activities in Helsinki.",
-    "date": "2022"
+    "date": "February, 2022"
   },
   {
     "name": "Vesihiisi",
@@ -125,6 +123,6 @@
     "githubLink": "https://github.com/adnanavni/vesihiisi",
     "homePage": "https://github.com/adnanavni/vesihiisi",
     "showDesc": "Water consumption tracking app",
-    "date": "2022"
+    "date": "December, 2021"
   }
 ]
