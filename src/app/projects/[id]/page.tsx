@@ -3,12 +3,19 @@ import { Project } from "@/app/components/project";
 import SingleProject from "@/app/components/singleProject";
 import { projectNameFormat } from "@/app/components/project";
 
-export default function ProjectDetails({ params }: { params: { id: string } }) {
+interface Params {
+  params: {
+    id: string;
+  };
+}
+
+export default function ProjectDetails({ params }: Params) {
   if (projectData.length === 0) return <>Loading</>;
 
   const project = projectData.find(
     (project) => params.id === projectNameFormat(project.name)
   );
+
   return (
     <div className="projectDetails">
       {project ? (
