@@ -7,7 +7,7 @@ const SingleProject = ({ project }: ProjectProps) => {
 
   return (
     <div className="singleProject">
-      <div className="StyledProjectPart">
+      <div className="projectPart">
         {image !== "" && (
           <Image
             alt={name}
@@ -22,7 +22,7 @@ const SingleProject = ({ project }: ProjectProps) => {
         </Link>
       </div>
       <p className="description">{description}</p>
-      <div className="StyledProjectFooter">
+      <div className="projectFooter">
         {githubLink === "" ? null : <Link href={githubLink}>@github</Link>}
       </div>
     </div>

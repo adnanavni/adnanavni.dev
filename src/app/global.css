@@ -10,20 +10,21 @@ a:hover {
 
 p {
   width: 80%;
-  color: #c9c9c9;
+  color: #e1e1e1;
   margin: 0.25rem;
   letter-spacing: 0.1rem;
   cursor: default;
+  line-height: 1.5;
 }
 
-.Greeting {
+.greeting {
   font-size: 1.5rem;
   margin-bottom: 2rem;
-  letter-spacing: 0.25rem;
+  letter-spacing: 0.3rem;
   color: #ffffff;
 }
 
-.Excitement {
+.excitement {
   font-style: italic;
 }
 
@@ -42,7 +43,7 @@ h2 {
 
 .description {
   letter-spacing: 0.2rem;
-  color: #b6b5b5;
+  color: #c6c6c6;
 }
 
 .date {
@@ -51,7 +52,7 @@ h2 {
   color: #a45bf7;
 }
 
-.StyledNav {
+.nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -61,7 +62,7 @@ h2 {
   border-bottom: 1px solid #5c3798;
 }
 
-.StyledNavName {
+.navName {
   width: 10rem;
   padding: 0.5rem;
   @media (max-width: 768px) {
@@ -69,7 +70,7 @@ h2 {
   }
 }
 
-.StyledNavLinks {
+.navLinks {
   display: flex;
   flex-direction: row;
   gap: 0.5rem;
@@ -79,7 +80,7 @@ h2 {
   }
 }
 
-.StyledNavImages {
+.navImages {
   width: 10rem;
   display: flex;
   flex-direction: column;
@@ -89,7 +90,7 @@ h2 {
   justify-content: center;
 }
 
-.StyledMain {
+.main {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -97,7 +98,7 @@ h2 {
   justify-content: center;
 }
 
-.StyledAboutMe {
+.aboutMe {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -125,7 +126,7 @@ h2 {
   height: 30rem;
 }
 
-.StyledProjectsContainer {
+.projectsContainer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -136,7 +137,7 @@ h2 {
   margin: 2rem;
 }
 
-.StyledProject {
+.project {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
@@ -154,7 +155,7 @@ h2 {
   }
 }
 
-.StyledProjectPart {
+.projectPart {
   display: flex;
   flex-direction: row;
   gap: 0.5rem;
@@ -162,7 +163,7 @@ h2 {
   align-items: center;
 }
 
-.StyledProjectFooter {
+.projectFooter {
   margin-top: auto;
   font-style: italic;
   display: flex;
@@ -179,7 +180,7 @@ h2 {
   }
 }
 
-.StyledProjectDetails {
+.projectDetails {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
@@ -188,7 +189,7 @@ h2 {
   height: 86vh;
 }
 
-.StyledFooter {
+.footer {
   display: flex;
   flex-direction: row;
   justify-content: center;

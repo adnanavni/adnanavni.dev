@@ -10,10 +10,10 @@ export default function Home() {
     )
   );
   return (
-    <div className="StyledMain">
+    <div className="main">
       <AboutMe />
       <h2>Top picks:</h2>
-      <div className="StyledProjectsContainer">
+      <div className="projectsContainer">
         {filteredProjects.map((project, index) => (
           <Project key={index} project={project} />
         ))}

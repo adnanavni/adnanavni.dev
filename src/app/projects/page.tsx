@@ -4,9 +4,9 @@ import projectsData from "../data/projects.json";
 
 export default function Home() {
   return (
-    <div className="StyledMain">
+    <div className="main">
       <h2>All Projects</h2>
-      <div className="StyledProjectsContainer">
+      <div className="projectsContainer">
         {projectsData.map((project, index) => (
           <Project key={index} project={project} />
         ))}

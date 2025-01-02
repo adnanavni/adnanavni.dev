@@ -10,7 +10,7 @@ export default function ProjectDetails({ params }: { params: { id: string } }) {
     (project) => params.id === projectNameFormat(project.name)
   );
   return (
-    <div className="StyledProjectDetails">
+    <div className="projectDetails">
       {project ? (
         <SingleProject project={project as Project} />
       ) : (

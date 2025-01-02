@@ -7,8 +7,8 @@ import styles from "../styles.module.css";
 
 export default function NavBar() {
   return (
-    <nav className="StyledNav">
-      <div className="StyledNavName">
+    <nav className="nav">
+      <div className="navName">
         <Link
           href="/"
           style={{
@@ -32,11 +32,11 @@ export default function NavBar() {
           </h1>
         </Link>
       </div>
-      <div className="StyledNavLinks">
+      <div className="navLinks">
         <Link href="/">Home</Link>
         <Link href="/projects">Projects</Link>
       </div>
-      <div className="StyledNavImages">
+      <div className="navImages">
         <Link href="https://github.com/adnanavni">
           <Image
             alt="github"

@@ -24,8 +24,8 @@ const Project = ({ project }: ProjectProps) => {
   const { name, image, showDesc, date } = project;
 
   return (
-    <div className="StyledProject">
-      <div className="StyledProjectPart">
+    <div className="project">
+      <div className="projectPart">
         {image !== "" && (
           <Image
             alt={name}
@@ -42,7 +42,7 @@ const Project = ({ project }: ProjectProps) => {
         </Link>
       </div>
       <p className="description">{showDesc}</p>
-      <div className="StyledProjectFooter">
+      <div className="projectFooter">
         <p className="date">{date}</p>
       </div>
     </div>
