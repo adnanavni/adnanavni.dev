@@ -3,17 +3,17 @@ import { Project } from "@/app/components/project";
 import SingleProject from "@/app/components/singleProject";
 import { projectNameFormat } from "@/app/components/project";
 
-interface Params {
-  params: {
-    id: string;
-  };
+interface ProjectDetailsProps {
+  params: Promise<{ id: string }>;
 }
 
-export default function ProjectDetails({ params }: Params) {
-  if (projectData.length === 0) return <>Loading</>;
+export default async function ProjectDetails({ params }: ProjectDetailsProps) {
+  const resolvedParams = await params;
+
+  if (projectData.length === 0) return <>Loading...</>;
 
   const project = projectData.find(
-    (project) => params.id === projectNameFormat(project.name)
+    (project) => resolvedParams.id === projectNameFormat(project.name)
   );
 
   return (
