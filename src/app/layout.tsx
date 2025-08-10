@@ -21,7 +21,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" style={{ backgroundColor: "black", color: "white" }}>
+    <html
+      lang="en"
+      style={{ backgroundColor: "hsl(263 33% 5% / 1)", color: "white" }}
+    >
       <body className={lato.className} style={{ margin: "0" }}>
         <NavBar />
         {children}

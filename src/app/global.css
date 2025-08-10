@@ -9,7 +9,7 @@ a:hover {
 }
 
 p {
-  width: 80%;
+  width: 100%;
   color: #e1e1e1;
   margin: 0.25rem;
   letter-spacing: 0.1rem;
@@ -19,9 +19,9 @@ p {
 
 .greeting {
   font-size: 1.5rem;
-  margin-bottom: 2rem;
   letter-spacing: 0.3rem;
   color: #ffffff;
+  width: 50%;
 }
 
 .excitement {
@@ -94,15 +94,15 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
+  text-align: initial;
   justify-content: center;
 }
 
 .aboutMe {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
   border-radius: 0.5rem;
   box-shadow: 0px 0px 10px 5px rgba(73, 19, 160, 0.6);
   max-width: 44rem;
@@ -121,8 +121,8 @@ h2 {
   width: 20rem;
   box-shadow: 0px 0px 10px 4px rgba(73, 19, 160, 0.6);
   border-radius: 0.5rem;
-  align-items: center;
-  text-align: center;
+  align-items: baseline;
+  text-align: initial;
   height: 30rem;
 }
 
@@ -146,8 +146,8 @@ h2 {
   width: 25rem;
   box-shadow: 0px 0px 10px 4px rgba(73, 19, 160, 0.6);
   border-radius: 0.5rem;
-  align-items: center;
-  text-align: center;
+  align-items: baseline;
+  text-align: initial;
   height: 15rem;
 
   @media screen and (max-width: 768px) {

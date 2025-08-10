@@ -18,15 +18,6 @@
     "date": "January, 2024"
   },
   {
-    "name": "Leikkai",
-    "description": "Mail subscription service designed for an upcoming clothing brand. Developed with Next.js and TypeScript, this application enables users to subscribe and receive updates about the latest collections and news from Leikkai.",
-    "image": "leikkai.png",
-    "githubLink": "",
-    "homePage": "https://leikkai.com/",
-    "showDesc": "Mail subscription service for my friend's upcoming clothing brand Leikkai.",
-    "date": "December, 2024"
-  },
-  {
     "name": "Speed Tester",
     "description": "Fun and interactive game that tests your reaction speed. Built with React and TypeScript, this application provides a challenging and engaging experience to improve your reflexes and reaction time.",
     "image": "speedtester.png",

@@ -6,16 +6,23 @@ function AboutMe() {
     <div className="aboutMe">
       <Image src={"/icon.png"} alt="logo" width={80} height={80} />
 
-      <p className="greeting">Hey there!</p>
+      <p className="greeting">Hi there!</p>
       <p>
-        I'm Adnan Avni, a fourth-year student at Metropolia University of
-        Applied Sciences, majoring in software engineering. I'm on track to
-        graduate by end of spring 2025.
+        I'm Adnan Avni — a freshly graduated software engineer from Metropolia
+        University of Applied Sciences.
       </p>
-      <p>Feel free to try out and explore the code of my projects!</p>
+      <p>
+        I'm passionate about building impactful, user-friendly software
+        solutions and continuously growing as a developer.
+      </p>
+      <p>
+        Here, you can explore my projects, dive into my code, and see how I
+        approach problem-solving.
+      </p>
       <p className="excitement">
-        Excited to share my journey in software engineering, explore industry
-        insights, and connect with like-minded folks.
+        Currently, I'm looking for exciting opportunities where I can contribute
+        my skills, learn from experienced teams, and create meaningful digital
+        products.
       </p>
     </div>
   );
