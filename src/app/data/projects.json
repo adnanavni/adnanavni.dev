@@ -1,5 +1,14 @@
 [
   {
+    "name": "Kodittomat Bulgarian Koirat",
+    "description": "Website built for Kodittomat Bulgarian Koirat Ry to present the association, share information about dogs, and support the adoption process. Built with Next.js, Prisma, and Supabase Postgres.",
+    "image": "bulgarian-koirat.jpg",
+    "githubLink": "",
+    "homePage": "bulgariankoirat.com",
+    "showDesc": "Association website with dog listings and adoption information.",
+    "date": "January, 2026"
+  },
+  {
     "name": "Mölkky Pistelaskuri",
     "description": "User-friendly web application designed to help you keep track of your Mölkky game scores. Built using Vue.js, this tool ensures an easy and efficient way to manage your game statistics, enhancing your Mölkky playing experience.",
     "image": "molkky.png",

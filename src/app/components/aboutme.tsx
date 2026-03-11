@@ -8,21 +8,21 @@ function AboutMe() {
 
       <p className="greeting">Hi there!</p>
       <p>
-        I'm Adnan Avni — a freshly graduated software engineer from Metropolia
+        I'm Adnan Avni, a software engineer graduated from Metropolia
         University of Applied Sciences.
       </p>
       <p>
-        I'm passionate about building impactful, user-friendly software
-        solutions and continuously growing as a developer.
+        I currently work on one of Finland's most advanced e-commerce
+        platforms in the construction industry, building impactful,
+        user-friendly software and continuously growing as a developer.
       </p>
       <p>
         Here, you can explore my projects, dive into my code, and see how I
         approach problem-solving.
       </p>
       <p className="excitement">
-        Currently, I'm looking for exciting opportunities where I can contribute
-        my skills, learn from experienced teams, and create meaningful digital
-        products.
+        I'm especially interested in creating meaningful digital products and
+        solving real-world problems through thoughtful engineering.
       </p>
     </div>
   );
